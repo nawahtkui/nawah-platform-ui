@@ -1,0 +1,402 @@
+[
+  {
+    "id": "nawah-001",
+    "name": "Nawah Genesis #001",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-001.png",
+    "rarity": "Legendary",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-002",
+    "name": "Nawah Genesis #002",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-002.png",
+    "rarity": "Legendary",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-003",
+    "name": "Nawah Genesis #003",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-003.png",
+    "rarity": "Legendary",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-004",
+    "name": "Nawah Genesis #004",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-004.png",
+    "rarity": "Rare",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-005",
+    "name": "Nawah Genesis #005",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-005.png",
+    "rarity": "Rare",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-006",
+    "name": "Nawah Genesis #006",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-006.png",
+    "rarity": "Rare",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-007",
+    "name": "Nawah Genesis #007",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-007.png",
+    "rarity": "Rare",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-008",
+    "name": "Nawah Genesis #008",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-008.png",
+    "rarity": "Rare",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-009",
+    "name": "Nawah Genesis #009",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-009.png",
+    "rarity": "Rare",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-010",
+    "name": "Nawah Genesis #010",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-010.png",
+    "rarity": "Rare",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-011",
+    "name": "Nawah Genesis #011",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-011.png",
+    "rarity": "Rare",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-012",
+    "name": "Nawah Genesis #012",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-012.png",
+    "rarity": "Rare",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-013",
+    "name": "Nawah Genesis #013",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-013.png",
+    "rarity": "Rare",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-014",
+    "name": "Nawah Genesis #014",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-014.png",
+    "rarity": "Rare",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-015",
+    "name": "Nawah Genesis #015",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-015.png",
+    "rarity": "Rare",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-016",
+    "name": "Nawah Genesis #016",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-016.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-017",
+    "name": "Nawah Genesis #017",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-017.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-018",
+    "name": "Nawah Genesis #018",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-018.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-019",
+    "name": "Nawah Genesis #019",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-019.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-020",
+    "name": "Nawah Genesis #020",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-020.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-021",
+    "name": "Nawah Genesis #021",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-021.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-022",
+    "name": "Nawah Genesis #022",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-022.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-023",
+    "name": "Nawah Genesis #023",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-023.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-024",
+    "name": "Nawah Genesis #024",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-024.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-025",
+    "name": "Nawah Genesis #025",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-025.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-026",
+    "name": "Nawah Genesis #026",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-026.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-027",
+    "name": "Nawah Genesis #027",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-027.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-028",
+    "name": "Nawah Genesis #028",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-028.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-029",
+    "name": "Nawah Genesis #029",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-029.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-030",
+    "name": "Nawah Genesis #030",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-030.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-031",
+    "name": "Nawah Genesis #031",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-031.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-032",
+    "name": "Nawah Genesis #032",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-032.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-033",
+    "name": "Nawah Genesis #033",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-033.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-034",
+    "name": "Nawah Genesis #034",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-034.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-035",
+    "name": "Nawah Genesis #035",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-035.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-036",
+    "name": "Nawah Genesis #036",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-036.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-037",
+    "name": "Nawah Genesis #037",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-037.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-038",
+    "name": "Nawah Genesis #038",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-038.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-039",
+    "name": "Nawah Genesis #039",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-039.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-040",
+    "name": "Nawah Genesis #040",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-040.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-041",
+    "name": "Nawah Genesis #041",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-041.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-042",
+    "name": "Nawah Genesis #042",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-042.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-043",
+    "name": "Nawah Genesis #043",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-043.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-044",
+    "name": "Nawah Genesis #044",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-044.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-045",
+    "name": "Nawah Genesis #045",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-045.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-046",
+    "name": "Nawah Genesis #046",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-046.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  },
+  {
+    "id": "nawah-047",
+    "name": "Nawah Genesis #047",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-047.png",
+    "rarity": "Common",
+    "collection": "Culture"
+  },
+  {
+    "id": "nawah-048",
+    "name": "Nawah Genesis #048",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-048.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-049",
+    "name": "Nawah Genesis #049",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-049.png",
+    "rarity": "Common",
+    "collection": "Genesis"
+  },
+  {
+    "id": "nawah-050",
+    "name": "Nawah Genesis #050",
+    "description": "A generated NFT from the Nawah platform.",
+    "image": "/nfts/nawah-050.png",
+    "rarity": "Common",
+    "collection": "Utility"
+  }
+]
