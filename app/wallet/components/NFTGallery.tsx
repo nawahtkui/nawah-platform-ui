@@ -43,7 +43,7 @@ export default function NFTGallery() {
 
             {/* Request Mint → Google Form */}
             <a
-              href="https://forms.gle/s8UGTXX8Dhrsfamh6"
+              href="https://forms.gle/1ZR2haNhGQdAX1dv6"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs rounded-lg bg-black text-white px-3 py-1 dark:bg-white dark:text-black"
