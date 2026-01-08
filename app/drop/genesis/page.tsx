@@ -13,16 +13,35 @@ export default function GenesisDropPage() {
           Limited Genesis NFTs for early supporters.
         </p>
 
-        {/* 🔢 Counter */}
+        {/* 🔢 Early Bird Counter */}
         <GenesisCounter soldEarly={0} />
 
         {/* Pricing */}
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-8 space-y-3 text-left">
           <p>• Total supply: <strong>50 Genesis NFTs</strong></p>
-          <p>• First 10: <strong>25 USDT</strong></p>
-          <p>• Remaining: <strong>50 USDT</strong></p>
+          <p>• Early Bird (first 10): <strong>25 USDT</strong></p>
+          <p>• Standard price: <strong>50 USDT</strong></p>
         </div>
 
+        {/* 💰 Payment Section */}
+        <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 space-y-3 text-left">
+          <h3 className="text-xl font-semibold">Payment (USDT)</h3>
+
+          <p>
+            • Network: <strong>BEP20 (BNB Smart Chain)</strong>
+          </p>
+
+          <p className="break-all">
+            • Wallet Address (EVM – MEW / MetaMask compatible):<br />
+            <strong>0x66fd1BEaED419Bd6c961a99CeEdB7189219e3b41</strong>
+          </p>
+
+          <p className="text-sm text-zinc-400">
+            After payment, submit your TX Hash via the mint request form for confirmation.
+          </p>
+        </div>
+
+        {/* Actions */}
         <div className="flex justify-center gap-4">
           <a
             href="/wallet"
