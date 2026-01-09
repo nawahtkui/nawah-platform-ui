@@ -21,20 +21,49 @@ export default function Home() {
               وبناء قيمة إنسانية مستدامة.
             </p>
 
+            {/* Actions */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 rounded-xl bg-nawah-gold text-black font-semibold hover:opacity-90 transition">
-                دخول المنصة
-              </button>
 
-              <button className="px-8 py-3 rounded-xl border border-nawah-silver text-nawah-silver hover:bg-white/10 transition">
+              {/* Primary Button */}
+              <a
+                href="/dashboard"
+                className="
+                px-8 py-3 rounded-xl
+                bg-nawah-gold text-black font-semibold
+                hover:opacity-90 hover:scale-[1.03]
+                active:scale-[0.97]
+                transition-all duration-200 ease-out
+                inline-block
+                "
+              >
+                دخول المنصة
+              </a>
+
+              {/* Secondary Button */}
+              <a
+                href="#"
+                className="
+                px-8 py-3 rounded-xl
+                border border-nawah-silver text-nawah-silver
+                hover:bg-white/10 hover:border-nawah-gold
+                hover:text-nawah-gold
+                active:scale-[0.97]
+                transition-all duration-200 ease-out
+                inline-block
+                "
+              >
                 الوثيقة البيضاء
-              </button>
+              </a>
+
             </div>
           </div>
         </section>
 
         {/* ================= VISION ================= */}
-        <section className="py-24 border-t border-white/10">
+        <section
+          id="vision"
+          className="py-24 border-t border-white/10"
+        >
           <div className="max-w-5xl mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-nawah-gold">
               الرؤية
@@ -49,14 +78,27 @@ export default function Home() {
         </section>
 
         {/* ================= WEB3 ================= */}
-        <section className="py-24 bg-black/40 border-t border-white/10">
+        <section
+          id="web3"
+          className="py-24 bg-black/40 border-t border-white/10"
+        >
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-nawah-gold">
               Web3 & الاقتصاد اللامركزي
             </h2>
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="p-6 rounded-2xl bg-black/60 border border-white/10">
+
+              {/* Card 1 */}
+              <div
+                className="
+                p-6 rounded-2xl bg-black/60 border border-white/10
+                hover:border-nawah-gold/40
+                hover:-translate-y-1
+                hover:shadow-lg hover:shadow-nawah-gold/10
+                transition-all duration-300 ease-out
+                "
+              >
                 <h3 className="text-xl font-semibold text-nawah-silver">
                   اللامركزية
                 </h3>
@@ -66,7 +108,16 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="p-6 rounded-2xl bg-black/60 border border-white/10">
+              {/* Card 2 */}
+              <div
+                className="
+                p-6 rounded-2xl bg-black/60 border border-white/10
+                hover:border-nawah-gold/40
+                hover:-translate-y-1
+                hover:shadow-lg hover:shadow-nawah-gold/10
+                transition-all duration-300 ease-out
+                "
+              >
                 <h3 className="text-xl font-semibold text-nawah-silver">
                   الشفافية
                 </h3>
@@ -76,7 +127,16 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="p-6 rounded-2xl bg-black/60 border border-white/10">
+              {/* Card 3 */}
+              <div
+                className="
+                p-6 rounded-2xl bg-black/60 border border-white/10
+                hover:border-nawah-gold/40
+                hover:-translate-y-1
+                hover:shadow-lg hover:shadow-nawah-gold/10
+                transition-all duration-300 ease-out
+                "
+              >
                 <h3 className="text-xl font-semibold text-nawah-silver">
                   التمكين الرقمي
                 </h3>
@@ -85,12 +145,16 @@ export default function Home() {
                   فرصًا عادلة للنمو والمشاركة.
                 </p>
               </div>
+
             </div>
           </div>
         </section>
 
         {/* ================= IMPACT ================= */}
-        <section className="py-24 border-t border-white/10">
+        <section
+          id="impact"
+          className="py-24 border-t border-white/10"
+        >
           <div className="max-w-5xl mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-nawah-gold">
               الأثر المجتمعي
@@ -107,7 +171,6 @@ export default function Home() {
 
       </main>
 
-      {/* ================= FOOTER COMPONENT ================= */}
       <Footer />
     </>
   );
