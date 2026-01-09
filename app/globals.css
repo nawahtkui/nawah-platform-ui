@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/* ================= Root & Theme ================= */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,14 +21,36 @@
   }
 }
 
-/* Smooth scrolling for in-page navigation */
+/* ================= Global UX ================= */
+
+/* Smooth scrolling for anchor navigation */
 html {
   scroll-behavior: smooth;
 }
 
+/* Base body styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Focus styles (Accessibility) */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #C9A24D;
+  outline-offset: 3px;
+}
+
+/* Active feedback */
+button:active,
+a:active {
+  transform: scale(0.98);
+}
+
 /* ================= Animations ================= */
 
-/* Soft fade-up animation */
+/* Soft fade-up animation (base) */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -38,27 +62,25 @@ html {
   }
 }
 
+/* 🔹 Direct animation (optional – on load) */
 .animate-fade-up {
   animation: fadeUp 0.8s ease-out both;
 }
 
-/* ================= UX Polish ================= */
-
-a:focus-visible,
-button:focus-visible {
-  outline: 2px solid #C9A24D;
-  outline-offset: 3px;
+/* 🔹 Scroll-triggered animation (used with IntersectionObserver) */
+.animate-in {
+  animation: fadeUp 0.8s ease-out forwards;
 }
 
-button:active,
-a:active {
-  transform: scale(0.98);
-}
+/* ================= Motion Preferences ================= */
 
-/* ================= Base ================= */
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
 }
