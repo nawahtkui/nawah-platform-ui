@@ -1,4 +1,3 @@
-
 import MarketingNavbar from "../components/MarketingNavbar";
 import Footer from "../components/Footer";
 
