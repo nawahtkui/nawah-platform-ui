@@ -1,15 +1,15 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AuthGuard from "../components/AuthGuard";
 
 export default function Dashboard() {
   return (
-    <>
+    <AuthGuard>
       <Navbar />
 
       <main className="min-h-screen bg-gradient-to-b from-black via-zinc-900 to-black text-white pt-32">
         <div className="max-w-7xl mx-auto px-6">
 
-          {/* Header */}
           <section className="mb-12">
             <h1 className="text-3xl md:text-4xl font-bold text-nawah-gold">
               لوحة التحكم
@@ -19,7 +19,6 @@ export default function Dashboard() {
             </p>
           </section>
 
-          {/* Stats */}
           <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             <div className="p-6 rounded-2xl bg-black/60 border border-white/10">
               <h3 className="text-sm text-zinc-400">الرصيد</h3>
@@ -43,21 +42,10 @@ export default function Dashboard() {
             </div>
           </section>
 
-          {/* Activity */}
-          <section className="mb-24">
-            <h2 className="text-xl font-semibold text-nawah-gold mb-4">
-              النشاط الأخير
-            </h2>
-
-            <div className="rounded-2xl bg-black/60 border border-white/10 p-6 text-zinc-400 text-sm">
-              لا توجد معاملات بعد.
-            </div>
-          </section>
-
         </div>
       </main>
 
       <Footer />
-    </>
+    </AuthGuard>
   );
 }
