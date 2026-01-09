@@ -11,7 +11,9 @@ export default function AuthGuard({
   const router = useRouter();
 
   useEffect(() => {
-    const isAuthenticated = localStorage.getItem("nawah_auth");
+    const isAuthenticated =
+      localStorage.getItem("nawah_auth") &&
+      localStorage.getItem("nawah_wallet");
 
     if (!isAuthenticated) {
       router.replace("/");
