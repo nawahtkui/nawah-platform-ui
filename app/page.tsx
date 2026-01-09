@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -104,14 +105,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= FOOTER NOTE ================= */}
-        <footer className="py-12 text-center border-t border-white/10">
-          <p className="text-sm text-zinc-500">
-            © {new Date().getFullYear()} Nawah Platform — All rights reserved
-          </p>
-        </footer>
-
       </main>
+
+      {/* ================= FOOTER COMPONENT ================= */}
+      <Footer />
     </>
   );
 }
