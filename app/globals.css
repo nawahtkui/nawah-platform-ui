@@ -24,6 +24,39 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ================= Animations ================= */
+
+/* Soft fade-up animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease-out both;
+}
+
+/* ================= UX Polish ================= */
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #C9A24D;
+  outline-offset: 3px;
+}
+
+button:active,
+a:active {
+  transform: scale(0.98);
+}
+
+/* ================= Base ================= */
+
 body {
   background: var(--background);
   color: var(--foreground);
