@@ -11,24 +11,27 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex items-center gap-8 text-sm text-zinc-300">
-          <a href="#" className="hover:text-nawah-gold transition">
+          <a href="/" className="hover:text-nawah-gold transition">
             الرئيسية
           </a>
-          <a href="#" className="hover:text-nawah-gold transition">
-            المنصة
+          <a href="#vision" className="hover:text-nawah-gold transition">
+            الرؤية
           </a>
-          <a href="#" className="hover:text-nawah-gold transition">
-            الوثيقة
+          <a href="#web3" className="hover:text-nawah-gold transition">
+            Web3
           </a>
-          <a href="#" className="hover:text-nawah-gold transition">
-            تواصل
+          <a href="#impact" className="hover:text-nawah-gold transition">
+            الأثر
           </a>
         </div>
 
         {/* Action Button */}
-        <button className="px-4 py-2 rounded-lg bg-nawah-gold text-black text-sm font-semibold hover:opacity-90 transition">
+        <a
+          href="/dashboard"
+          className="px-4 py-2 rounded-lg bg-nawah-gold text-black text-sm font-semibold hover:opacity-90 transition"
+        >
           دخول
-        </button>
+        </a>
 
       </div>
     </nav>
