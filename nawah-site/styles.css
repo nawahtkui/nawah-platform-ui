@@ -1,0 +1,209 @@
+/* ===== المتغيرات للتلوين ===== */
+:root {
+    --bg-light: #fafafa;
+    --text-light: #222;
+    --nav-bg-light: #fff;
+    --nav-text-light: #111;
+
+    --bg-dark: #121212;
+    --text-dark: #e1e1e1;
+    --nav-bg-dark: #111;
+    --nav-text-dark: #fff;
+
+    --accent: #4CAF50;
+}
+
+/* ===== الوضع الليلي تلقائيًا ===== */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: var(--bg-dark);
+        color: var(--text-dark);
+    }
+    .navbar {
+        background: var(--nav-bg-dark);
+    }
+    .navbar .logo,
+    .nav-menu li a {
+        color: var(--nav-text-dark);
+    }
+    .footer {
+        background: var(--nav-bg-dark);
+        color: var(--text-dark);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: var(--bg-light);
+        color: var(--text-light);
+    }
+    .navbar {
+        background: var(--nav-bg-light);
+    }
+    .navbar .logo,
+    .nav-menu li a {
+        color: var(--nav-text-light);
+    }
+    .footer {
+        background: var(--nav-bg-light);
+        color: var(--text-light);
+    }
+}
+
+/* ===== GENERAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.6;
+}
+
+/* ===== NAVIGATION BAR ===== */
+.navbar {
+    padding: 0.8rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: fadeInDown 0.6s ease;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
+    color: var(--accent);
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.6rem;
+    animation: fadeInRight 0.6s ease;
+}
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.nav-menu li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    right: 0;
+    background-color: var(--accent);
+    transition: width 0.3s ease;
+}
+.nav-menu li a:hover::after {
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background: #222;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+.hamburger:hover span:nth-child(1) {
+    transform: translateY(2px) rotate(15deg);
+}
+.hamburger:hover span:nth-child(3) {
+    transform: translateY(-2px) rotate(-15deg);
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    padding: 3rem 2rem;
+    text-align: center;
+    animation: fadeInUp 0.8s ease;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    animation: fadeInUp 0.6s ease;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin: 0 0.6rem;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: var(--accent);
+}
+.social-icons a img {
+    width: 24px;
+    margin: 0 0.6rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .nav-menu {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background: var(--nav-bg-light);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+    .nav-menu.active {
+        display: flex;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInRight {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
