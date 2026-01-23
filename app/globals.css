@@ -1,86 +1,16 @@
-@import "tailwindcss";
-
-/* ================= Root & Theme ================= */
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-/* ================= Global UX ================= */
-
-/* Smooth scrolling for anchor navigation */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Base body styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
 }
 
-/* Focus styles (Accessibility) */
-a:focus-visible,
-button:focus-visible {
-  outline: 2px solid #C9A24D;
-  outline-offset: 3px;
+main {
+  padding: 2rem;
 }
 
-/* Active feedback */
-button:active,
-a:active {
-  transform: scale(0.98);
-}
-
-/* ================= Animations ================= */
-
-/* Soft fade-up animation (base) */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* 🔹 Direct animation (optional – on load) */
-.animate-fade-up {
-  animation: fadeUp 0.8s ease-out both;
-}
-
-/* 🔹 Scroll-triggered animation (used with IntersectionObserver) */
-.animate-in {
-  animation: fadeUp 0.8s ease-out forwards;
-}
-
-/* ================= Motion Preferences ================= */
-
-/* Respect users who prefer reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation: none !important;
-    transition: none !important;
-    transform: none !important;
-  }
+nav, footer {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
 }
